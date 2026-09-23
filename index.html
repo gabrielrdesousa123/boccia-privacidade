@@ -6,129 +6,202 @@
 <title>Privacy Policy — Scoreboard For Boccia</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #1a1a1a; }
-  h1 { color: #1F3A63; border-bottom: 3px solid #C0392B; padding-bottom: 8px; }
-  h2 { color: #1F3A63; margin-top: 24px; }
-  h3 { color: #C0392B; margin-top: 20px; }
+    max-width: 760px; margin: 0 auto; padding: 24px 16px; line-height: 1.6; color: #1a1a1a; background: #fff; }
+  h1 { color: #1F3A63; border-bottom: 3px solid #C0392B; padding-bottom: 8px; font-size: 1.6em; }
+  h2 { color: #1F3A63; margin-top: 24px; font-size: 1.2em; }
   .updated { color: #5D6D7E; font-size: 14px; }
   .lang-nav { background:#F1F3F5; padding:12px; border-radius:8px; margin-bottom:20px; }
   .lang-nav a { color:#C0392B; margin-right:16px; font-weight:600; text-decoration:none; }
-  a { color: #C0392B; }
+  a { color: #C0392B; overflow-wrap: anywhere; }
   ul { padding-left: 20px; }
   hr { border:none; border-top:1px solid #E0E4E8; margin:36px 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#121417; color:#E6E8EB; }
+    h1, h2 { color:#8FB3E8; }
+    .lang-nav { background:#1E2227; }
+    .updated { color:#9AA5B1; }
+    a, .lang-nav a { color:#F08A7E; }
+    hr { border-top-color:#2C3238; }
+  }
 </style>
 </head>
 <body>
 
-<div class="lang-nav">
+<nav class="lang-nav">
   🌐 <a href="#pt">Português</a> <a href="#en">English</a> <a href="#es">Español</a>
-</div>
+</nav>
 
 <!-- ==================== PORTUGUÊS ==================== -->
+<section lang="pt-BR">
 <h1 id="pt">Política de Privacidade — Scoreboard For Boccia</h1>
-<p class="updated"><strong>Última atualização:</strong> 22 de julho de 2026</p>
+<p class="updated"><strong>Última atualização:</strong> 23 de setembro de 2026</p>
 
-<p>O aplicativo <strong>Scoreboard For Boccia</strong> é desenvolvido por Gabriel R. de Sousa. Esta política descreve como tratamos as informações dos usuários, em conformidade com a LGPD (Lei nº 13.709/2018) e o GDPR europeu.</p>
+<p>O aplicativo <strong>Scoreboard For Boccia</strong> (Android, pacote <code>com.gabrielsousa.bocciascoreboard</code>) é desenvolvido por Gabriel R. de Sousa, responsável pelo tratamento dos dados descritos aqui. Esta política segue a LGPD (Lei nº 13.709/2018) e o GDPR europeu.</p>
 
-<h2>1. Dados armazenados apenas no seu dispositivo</h2>
-<p>O app funciona 100% offline. Os seguintes dados nunca saem do seu aparelho:</p>
+<h2>1. Dados guardados apenas no seu aparelho</h2>
+<p>O placar funciona sem internet e sem cadastro. Os dados abaixo ficam no armazenamento privado do aplicativo e <strong>não são enviados ao desenvolvedor</strong>:</p>
 <ul>
-  <li>Nome e foto de perfil configurados no app;</li>
-  <li>Cadastro de atletas (nome, classe funcional, clube);</li>
-  <li>Histórico de partidas e súmulas.</li>
+  <li>nomes de atletas, equipes e árbitro que você digitar;</li>
+  <li>partida em andamento, histórico de partidas e súmulas;</li>
+  <li>preferências do app (som, contraste, gestos);</li>
+  <li>um identificador aleatório da instalação e os dados da licença Full, se houver.</li>
 </ul>
-<p>Esses dados só saem do aparelho se você mesmo compartilhar uma súmula (PDF).</p>
+<p>O backup automático do Android está desativado para esses dados, então eles não vão para a nuvem do Google. Eles só saem do aparelho se você imprimir ou compartilhar uma súmula em PDF, pelo serviço de impressão ou compartilhamento que você escolher.</p>
 
-<h2>2. Permissões</h2>
+<h2>2. Anúncios na versão gratuita (Google AdMob)</h2>
+<p>A versão gratuita exibe anúncios do <strong>Google AdMob</strong>, fornecido pela Google. Antes de pedir qualquer anúncio, o app mostra, quando a lei exigir (por exemplo, no Espaço Econômico Europeu e no Reino Unido), a mensagem de consentimento do Google (User Messaging Platform). Se o consentimento não for obtido, o app não carrega anúncios, e o placar funciona do mesmo jeito.</p>
+<p>Para exibir e medir anúncios e prevenir fraudes, o Google pode coletar:</p>
 <ul>
-  <li><strong>Câmera:</strong> usada apenas para a medição visual (círculo de referência). Nenhuma imagem é gravada ou transmitida.</li>
+  <li>o ID de publicidade do aparelho;</li>
+  <li>o endereço IP e a localização aproximada derivada dele;</li>
+  <li>informações do aparelho, do sistema e do app;</li>
+  <li>interações com os anúncios (visualizações e cliques).</li>
 </ul>
+<p>Anúncios personalizados só aparecem quando permitidos pelas suas escolhas. Saiba mais em <a href="https://policies.google.com/technologies/partner-sites">Como o Google usa dados de apps parceiros</a> e na <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+<p><strong>Como controlar:</strong> em <em>Configurações → Opções de privacidade dos anúncios</em>, no app, você pode revisar o consentimento. Nas configurações do Android, em <em>Google → Anúncios</em>, você pode redefinir ou excluir o ID de publicidade. A <strong>versão Full</strong> não solicita anúncios.</p>
 
-<h2>3. Dados que NÃO coletamos</h2>
+<h2>3. Ativação da versão Full</h2>
+<p>Para ativar a versão Full, você envia ao desenvolvedor, por e-mail, o identificador de instalação exibido nas Configurações. Ele é um código aleatório, não identifica você nem o aparelho, e é usado só para emitir a licença. O e-mail e esse código ficam guardados apenas pelo tempo necessário para suporte da licença. Você pode pedir a exclusão pelo contato abaixo.</p>
+
+<h2>4. Permissões do Android</h2>
 <ul>
-  <li>Não coletamos localização, contatos, mensagens ou arquivos;</li>
-  <li>Não exibimos anúncios;</li>
-  <li>Não vendemos dados a terceiros;</li>
-  <li>Não exigimos cadastro.</li>
+  <li><strong>Internet e estado da rede:</strong> apenas para os anúncios da versão gratuita;</li>
+  <li><strong>ID de publicidade:</strong> usado pelo Google AdMob, conforme a seção 2;</li>
+  <li><strong>Manter a tela ligada:</strong> evita que a tela apague durante a partida.</li>
 </ul>
+<p>O app <strong>não</strong> acessa câmera, microfone, localização precisa, contatos, fotos ou arquivos.</p>
 
-<h2>4. Exclusão de dados</h2>
-<p>Todos os dados locais são removidos ao desinstalar o aplicativo.</p>
+<h2>5. Segurança</h2>
+<p>As conexões usam apenas HTTPS. Verificações de integridade do app, como assinatura e root, rodam só no aparelho e não enviam nada. Nenhum sistema é 100% seguro, mas não mantemos servidores com os seus dados de partidas.</p>
 
-<h2>5. Contato</h2>
+<h2>6. Seus direitos e exclusão</h2>
+<p>Você pode apagar todos os dados locais em <em>Configurações do Android → Apps → Scoreboard For Boccia → Armazenamento → Limpar dados</em>, ou desinstalando o app. Para dados de anúncios, use as opções do Google citadas acima. Para acessar, corrigir ou excluir dados da licença, ou para qualquer outro direito previsto na LGPD/GDPR, entre em contato.</p>
+
+<h2>7. Crianças</h2>
+<p>O app é uma ferramenta de arbitragem e não é direcionado a crianças menores de 13 anos.</p>
+
+<h2>8. Alterações</h2>
+<p>Esta política pode ser atualizada. A data no topo indica a versão atual.</p>
+
+<h2>9. Contato</h2>
 <p><strong>E-mail:</strong> <a href="mailto:gabrielrdesousa@gmail.com">gabrielrdesousa@gmail.com</a></p>
+</section>
 
 <hr>
 
 <!-- ==================== ENGLISH ==================== -->
+<section lang="en">
 <h1 id="en">Privacy Policy — Scoreboard For Boccia</h1>
-<p class="updated"><strong>Last updated:</strong> July 22, 2026</p>
+<p class="updated"><strong>Last updated:</strong> September 23, 2026</p>
 
-<p><strong>Scoreboard For Boccia</strong> is developed by Gabriel R. de Sousa. This policy explains how we handle user information, in compliance with Brazil's LGPD and the European GDPR.</p>
+<p><strong>Scoreboard For Boccia</strong> (Android, package <code>com.gabrielsousa.bocciascoreboard</code>) is developed by Gabriel R. de Sousa, who is responsible for the data processing described here. This policy follows Brazil's LGPD and the European GDPR.</p>
 
-<h2>1. Data stored only on your device</h2>
-<p>The app works 100% offline. The following data never leaves your device:</p>
+<h2>1. Data kept only on your device</h2>
+<p>The scoreboard works offline and without sign-up. The data below stays in the app's private storage and is <strong>not sent to the developer</strong>:</p>
 <ul>
-  <li>Profile name and photo set in the app;</li>
-  <li>Athlete records (name, sport class, club);</li>
-  <li>Match history and match sheets.</li>
+  <li>athlete, team and referee names you enter;</li>
+  <li>the match in progress, match history and match sheets;</li>
+  <li>app preferences (sound, contrast, gestures);</li>
+  <li>a random installation identifier and Full license data, if any.</li>
 </ul>
-<p>This data only leaves the device if you choose to share a match sheet (PDF).</p>
+<p>Android automatic backup is disabled for this data, so it is not copied to Google's cloud. It only leaves the device if you print or share a PDF match sheet, using the print or sharing service you choose.</p>
 
-<h2>2. Permissions</h2>
+<h2>2. Ads in the free version (Google AdMob)</h2>
+<p>The free version shows ads from <strong>Google AdMob</strong>, provided by Google. Before requesting any ad, where required by law (for example in the European Economic Area and the UK), the app shows Google's consent message (User Messaging Platform). If consent is not obtained, the app does not load ads, and the scoreboard works just the same.</p>
+<p>To serve and measure ads and prevent fraud, Google may collect:</p>
 <ul>
-  <li><strong>Camera:</strong> used only for visual measurement (reference circle). No image is recorded or transmitted.</li>
+  <li>the device advertising ID;</li>
+  <li>the IP address and the approximate location derived from it;</li>
+  <li>device, system and app information;</li>
+  <li>ad interactions (views and clicks).</li>
 </ul>
+<p>Personalized ads only appear when your choices allow it. Learn more at <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from partner apps</a> and in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p><strong>Your controls:</strong> in the app, go to <em>Settings → “Opções de privacidade dos anúncios”</em> (ad privacy options) to review consent. In Android settings, under <em>Google → Ads</em>, you can reset or delete your advertising ID. The <strong>Full version</strong> does not request ads.</p>
 
-<h2>3. Data we do NOT collect</h2>
+<h2>3. Full version activation</h2>
+<p>To activate the Full version, you email the developer the installation identifier shown in Settings. It is a random code that does not identify you or your device, and it is used only to issue the license. The email and code are kept only as long as needed for license support. You can request deletion through the contact below.</p>
+
+<h2>4. Android permissions</h2>
 <ul>
-  <li>We do not collect location, contacts, messages or files;</li>
-  <li>We do not show ads;</li>
-  <li>We do not sell data to third parties;</li>
-  <li>No sign-up is required.</li>
+  <li><strong>Internet and network state:</strong> only for ads in the free version;</li>
+  <li><strong>Advertising ID:</strong> used by Google AdMob, as described in section 2;</li>
+  <li><strong>Keep screen on:</strong> prevents the screen from turning off during a match.</li>
 </ul>
+<p>The app does <strong>not</strong> access the camera, microphone, precise location, contacts, photos or files.</p>
 
-<h2>4. Data deletion</h2>
-<p>All local data is removed when you uninstall the app.</p>
+<h2>5. Security</h2>
+<p>Connections use HTTPS only. App integrity checks, such as signature and root, run only on the device and send nothing. No system is 100% secure, but we do not run servers holding your match data.</p>
 
-<h2>5. Contact</h2>
+<h2>6. Your rights and deletion</h2>
+<p>You can delete all local data in <em>Android Settings → Apps → Scoreboard For Boccia → Storage → Clear data</em>, or by uninstalling the app. For ad data, use Google's options above. To access, correct or delete license data, or to exercise any other LGPD/GDPR right, contact us.</p>
+
+<h2>7. Children</h2>
+<p>The app is a refereeing tool and is not directed at children under 13.</p>
+
+<h2>8. Changes</h2>
+<p>This policy may be updated. The date at the top shows the current version.</p>
+
+<h2>9. Contact</h2>
 <p><strong>E-mail:</strong> <a href="mailto:gabrielrdesousa@gmail.com">gabrielrdesousa@gmail.com</a></p>
+</section>
 
 <hr>
 
 <!-- ==================== ESPAÑOL ==================== -->
+<section lang="es">
 <h1 id="es">Política de Privacidad — Scoreboard For Boccia</h1>
-<p class="updated"><strong>Última actualización:</strong> 22 de julio de 2026</p>
+<p class="updated"><strong>Última actualización:</strong> 23 de septiembre de 2026</p>
 
-<p><strong>Scoreboard For Boccia</strong> es desarrollado por Gabriel R. de Sousa. Esta política describe cómo tratamos la información de los usuarios, conforme a la LGPD brasileña y al GDPR europeo.</p>
+<p><strong>Scoreboard For Boccia</strong> (Android, paquete <code>com.gabrielsousa.bocciascoreboard</code>) es desarrollado por Gabriel R. de Sousa, responsable del tratamiento de los datos descritos aquí. Esta política sigue la LGPD brasileña y el GDPR europeo.</p>
 
-<h2>1. Datos almacenados solo en tu dispositivo</h2>
-<p>La app funciona 100% sin conexión. Los siguientes datos nunca salen de tu dispositivo:</p>
+<h2>1. Datos guardados solo en tu dispositivo</h2>
+<p>El marcador funciona sin internet y sin registro. Los datos siguientes quedan en el almacenamiento privado de la app y <strong>no se envían al desarrollador</strong>:</p>
 <ul>
-  <li>Nombre y foto de perfil configurados en la app;</li>
-  <li>Registro de atletas (nombre, clase funcional, club);</li>
-  <li>Historial de partidos y actas.</li>
+  <li>nombres de atletas, equipos y árbitro que ingreses;</li>
+  <li>partido en curso, historial de partidos y actas;</li>
+  <li>preferencias de la app (sonido, contraste, gestos);</li>
+  <li>un identificador aleatorio de la instalación y los datos de la licencia Full, si la hay.</li>
 </ul>
-<p>Estos datos solo salen del dispositivo si tú compartes un acta (PDF).</p>
+<p>La copia de seguridad automática de Android está desactivada para estos datos, así que no van a la nube de Google. Solo salen del dispositivo si imprimes o compartes un acta en PDF, con el servicio de impresión o de compartir que elijas.</p>
 
-<h2>2. Permisos</h2>
+<h2>2. Anuncios en la versión gratuita (Google AdMob)</h2>
+<p>La versión gratuita muestra anuncios de <strong>Google AdMob</strong>, proporcionado por Google. Antes de solicitar cualquier anuncio, cuando la ley lo exige (por ejemplo, en el Espacio Económico Europeo y el Reino Unido), la app muestra el mensaje de consentimiento de Google (User Messaging Platform). Si no se obtiene el consentimiento, la app no carga anuncios, y el marcador funciona igual.</p>
+<p>Para mostrar y medir anuncios y prevenir fraudes, Google puede recopilar:</p>
 <ul>
-  <li><strong>Cámara:</strong> usada solo para la medición visual (círculo de referencia). Ninguna imagen se graba ni se transmite.</li>
+  <li>el ID de publicidad del dispositivo;</li>
+  <li>la dirección IP y la ubicación aproximada derivada de ella;</li>
+  <li>información del dispositivo, del sistema y de la app;</li>
+  <li>interacciones con los anuncios (visualizaciones y clics).</li>
 </ul>
+<p>Los anuncios personalizados solo aparecen cuando tus elecciones lo permiten. Más información en <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información de las apps asociadas</a> y en la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+<p><strong>Tus controles:</strong> en la app, ve a <em>Configuración → “Opções de privacidade dos anúncios”</em> (opciones de privacidad de los anuncios) para revisar el consentimiento. En los ajustes de Android, en <em>Google → Anuncios</em>, puedes restablecer o eliminar el ID de publicidad. La <strong>versión Full</strong> no solicita anuncios.</p>
 
-<h2>3. Datos que NO recopilamos</h2>
+<h2>3. Activación de la versión Full</h2>
+<p>Para activar la versión Full, envías por correo al desarrollador el identificador de instalación que aparece en Configuración. Es un código aleatorio que no te identifica ni identifica el dispositivo, y se usa solo para emitir la licencia. El correo y el código se guardan solo el tiempo necesario para el soporte de la licencia. Puedes pedir su eliminación en el contacto de abajo.</p>
+
+<h2>4. Permisos de Android</h2>
 <ul>
-  <li>No recopilamos ubicación, contactos, mensajes ni archivos;</li>
-  <li>No mostramos anuncios;</li>
-  <li>No vendemos datos a terceros;</li>
-  <li>No requiere registro.</li>
+  <li><strong>Internet y estado de la red:</strong> solo para los anuncios de la versión gratuita;</li>
+  <li><strong>ID de publicidad:</strong> usado por Google AdMob, según la sección 2;</li>
+  <li><strong>Mantener la pantalla encendida:</strong> evita que la pantalla se apague durante el partido.</li>
 </ul>
+<p>La app <strong>no</strong> accede a cámara, micrófono, ubicación precisa, contactos, fotos ni archivos.</p>
 
-<h2>4. Eliminación de datos</h2>
-<p>Todos los datos locales se eliminan al desinstalar la aplicación.</p>
+<h2>5. Seguridad</h2>
+<p>Las conexiones usan solo HTTPS. Las verificaciones de integridad de la app, como firma y root, se ejecutan solo en el dispositivo y no envían nada. Ningún sistema es 100% seguro, pero no mantenemos servidores con tus datos de partidos.</p>
 
-<h2>5. Contacto</h2>
+<h2>6. Tus derechos y eliminación</h2>
+<p>Puedes borrar todos los datos locales en <em>Ajustes de Android → Aplicaciones → Scoreboard For Boccia → Almacenamiento → Borrar datos</em>, o desinstalando la app. Para datos de anuncios, usa las opciones de Google mencionadas arriba. Para acceder, corregir o eliminar datos de la licencia, o ejercer cualquier otro derecho de la LGPD/GDPR, contáctanos.</p>
+
+<h2>7. Niños</h2>
+<p>La app es una herramienta de arbitraje y no está dirigida a niños menores de 13 años.</p>
+
+<h2>8. Cambios</h2>
+<p>Esta política puede actualizarse. La fecha de arriba indica la versión vigente.</p>
+
+<h2>9. Contacto</h2>
 <p><strong>E-mail:</strong> <a href="mailto:gabrielrdesousa@gmail.com">gabrielrdesousa@gmail.com</a></p>
+</section>
 
 </body>
 </html>
